@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289.774" height="93.858" viewBox="0 0 289.774 93.858">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.066" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7676"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_11_1" data-name="Component 11 – 1" transform="translate(0.242)">
+    <path id="Area_2" d="M0,23.017s24.545,13.55,48.684,13.55S72.822,0,96.961,0,121.1,17.049,145.238,17.049c23.244,0,23.244,55.41,47.383,55.41S216.759,50.722,240.9,50.722s48.277,24.722,48.277,24.722V91.214H.407Z" transform="translate(0 2.644)" opacity="0.3" fill="url(#linear-gradient)"/>
+    <path id="Area_2-2" data-name="Area_2" d="M0,23.017q24.545,13.55,48.684,13.55C72.822,36.566,72.822,0,96.961,0S121.1,17.049,145.238,17.049c23.244,0,23.244,55.41,47.383,55.41S216.759,50.722,240.9,50.722s48.277,24.722,48.277,24.722" transform="translate(0 2.644)" fill="none" stroke="#d91919" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Oval" cx="2.644" cy="2.644" r="2.644" transform="translate(102.067)" fill="#d91919"/>
+  </g>
+</svg>

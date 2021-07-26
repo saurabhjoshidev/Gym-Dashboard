@@ -1,0 +1,535 @@
+html {
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-color: #FF7676;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 0;
+}
+
+.panel {
+  background-color: #FFF1F1;
+  width: 100%;
+  height: 100%;;
+  min-width: 1190px;
+  border-radius: 30px;
+  margin: 20px 15% 110px 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px 0 0 30px;
+  padding: 40px 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20px;
+}
+
+.icons > img {
+  margin: 50px 0;
+} 
+
+.faces {
+  display: flex;
+  flex-direction: column;
+}
+
+.faces > img {
+  margin: -4px 0;
+} 
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 61px 0px 70px 0px;
+}
+
+#title, #morning, #warm, #today, #exer, #nutri, #calen, #calories{
+  font-size: 1rem;
+}
+
+.date, #p1, #p2, #search > p, .warm2, .from-date{
+  font-size: 0.7em;
+}
+
+#title, .date, #calen, .from-date, #calories {
+  margin: 0 0;
+}
+
+#search {
+  background-color: #fff;
+  border-radius: 2em;
+  width: 190px;
+  padding: 7px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  height: 80px;
+  width: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 31px 29px 70px 33px;
+  box-shadow: 0px 100px 100px -50px rgba(0, 0, 0, 0.2);
+}
+
+.secondlane {
+  margin-top: 70px;
+  height: 250px;
+  width: 762px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+ .warm-up {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  height: 173px;
+  width: 480px;
+  padding: 0px 20px 70px 20px;
+}
+
+.warm1 {
+  background-color: #FF7676;
+  border-radius: 20px;
+  width: 123px;
+  height: 175px;
+  text-align: center;
+}
+
+.warm1 > p {
+  margin: 5px 0;
+  color: #fff;
+}
+.warmex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.diet {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  height: 173px;
+  width: 170px;
+  padding: 0px 20px 70px 20px;
+}
+
+.foodex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.diet1 {
+  background-color: #5161F0;
+  border-radius: 22px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.diet1 > p {
+  margin: 5px 0;
+  color: #fff;
+  font-size: 0.65rem;
+  margin: 0 0;
+  transform: translateY(-4px);
+}
+
+.thirdlane {
+  margin-top: 23px;
+  height: 250px;
+  width: 762px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.exercise {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 295px;
+  padding: 0px 20px 70px 20px;
+}
+
+.exes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.exes1 {
+  margin-bottom: 20px;
+}
+
+.nutrition {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 353px; 
+  padding: 0px 20px 70px 20px;
+} 
+
+.nutriex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pie > img {
+  transform: translateY(-15px);
+}
+
+.info1 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.info1 > p {
+  padding-left: 10px;
+  margin: 7px 0;
+}
+
+.info {
+  transform: translateY(-15px);
+}
+/*.warm-exercise {
+  background-color: #FF7676;
+  border-radius: 32px;
+  display: flex;
+  height:auto;
+  width: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.warm-lady {
+  mix-blend-mode: darken;
+  height: 80px;
+} */
+
+#illustration {
+  position:relative;
+  bottom: 110px;
+  height: 250px;
+}
+
+#morning, #p1, #p2, .switch {
+  margin: 0 0;
+}
+
+#morning {
+  margin-bottom: 20px;
+}
+
+.aside {
+  background-color: #F8F9FF;
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.notification, .profile, .message {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.6rem;  
+  width: 6.5rem;
+}
+
+.profile {
+  font-size: 0.45rem;
+}
+
+#photo {
+  background-color: #5161F0;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+}
+
+h4 {
+  font-size: 1.7em;
+}
+
+.calender {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  height: 160px;
+  width: 270px; 
+  padding: 10px 20px 70px 20px;
+  box-shadow: 0px 40px 80px -50px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card_days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgb(126, 126, 126);
+}
+
+.card_dates {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 0 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.card_dates > li {
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  position: relative;
+}
+
+  .prev, .next {
+  color: rgb(194, 194, 194);
+}
+
+.orange {
+  background-color: #FF7676;
+  border-radius: 45%;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  color: #fff;
+}
+
+.purple {
+  background-color: #9b9b9b;
+  border-radius: 45%;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  color: #fff;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  background-color: #b9b9b9;
+  border-radius: 40%;
+  width: 10px;
+  height: 5px;
+  align-items: center;
+  color: #fff;
+}
+
+.date {
+  place-items: center;
+  position: relative;
+  align-self: center;
+}
+
+.graph {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  margin: 20px 20px;
+  flex-direction: column;
+  height: 160px;
+  width: 270px; 
+  padding: 10px 20px 70px 20px;
+  box-shadow: 0px 40px 80px -50px rgba(0, 0, 0, 0.2);
+}
+
+.xco > li {
+  margin: 0 5px 35px 0;
+}
+
+.xco {
+  list-style: none;
+  padding: 0 0;
+  font-size: 0.6rem;
+}
+
+.details1 {
+  display: flex;
+  margin-top: 60px;
+}
+
+.gd {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.x {
+  transform: translateY(-30px);
+}
+
+.fat {
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  height: 155px;
+  width: 270px; 
+  padding: 10px 20px 70px 20px;
+  box-shadow: 0px 40px 80px -50px rgba(0, 0, 0, 0.2);
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.info2 > p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.bar {
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.barb {
+  background-color: #5161F0;
+  width: 10px;
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.barr {
+  background-color: #FF7676;
+  width: 10px;
+  height: 70px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.mon {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #6e6e6e;
+  margin-right: 23.2px;
+}
+
+.chota-dabba {
+  display: flex;
+}
+
+.mons {
+  display: flex;
+}
+
+#bar1 {
+  height: 70px;
+}
+#bar2 {
+  height: 80px;
+}
+#bar3 {
+  height: 40px;
+}
+#bar4 {
+  height: 60px;
+}
+#bar5 {
+  height: 90px;
+}
+#bar6 {
+  height: 50px;
+}
+#bar7 {
+  height: 100px;
+}
+#bar8 {
+  height: 120px;
+}
+#bar9 {
+  height: 60px;
+}
+#bar10 {
+  height: 80px;
+}
+#bar11 {
+  height: 90px;
+}
+#bar12 {
+  height: 70px;
+}
